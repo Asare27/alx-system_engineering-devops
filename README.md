@@ -1,1 +1,2 @@
-This is Shell basic task
+pwd-This is Shell basic task
+shell- Coding with shell

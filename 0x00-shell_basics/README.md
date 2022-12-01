@@ -6,3 +6,4 @@ ls -a-Display current directory contents, including hidden files (starting with 
 ls -lan -Display current directory contents. 
 mkdir /tm/my_first_directory- Create the director
 mv /tmp/betty /tmp/my_first_directory
+rm /my_first_directory

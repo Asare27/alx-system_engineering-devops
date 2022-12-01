@@ -1,3 +1,4 @@
-pwd-Prints the abosulte path
-pwd- prints path:wq
+pwd-Print the file path
+ls-Display the contents list of your current directory.
+
 

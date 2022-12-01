@@ -3,3 +3,5 @@ whoami -script that prints the effective username of the current user.
 id -nG - script that prints all the groups the current user is part of.
 touch -script that creates an empty file called hello
 chmod - -reference=olleh hello -script that sets the mode of the file hello the same as olleh’s mode
+chown betty hello - Changes the file owner to betty
+chmond u+x hell0 -script that adds execute permission to the owner of the file hello

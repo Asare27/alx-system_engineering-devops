@@ -1,4 +1,4 @@
-# Use Puppet to automate the task of creating a custom HTTP header response
+# Employ Puppet for the automated creation of a custom HTTP header response
 
 exec {'update':
   command => '/usr/bin/apt-get update',

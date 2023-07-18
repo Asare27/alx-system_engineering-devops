@@ -1,0 +1,29 @@
+Introduction:
+Have you ever wondered about the magic that occurs behind the scenes when you type "https://www.google.com" in your browser and press Enter? In this blog post, we will take a journey through the intricate web of technologies that power this seemingly simple action. From DNS requests to database queries, we will uncover the layers that make the internet work seamlessly.
+
+DNS Request:
+The first step in this process is the Domain Name System (DNS) request. When you enter "https://www.google.com" into your browser, your computer sends a DNS request to a DNS server. This request translates the human-readable domain name into an IP address. The DNS server responds with the IP address of the server hosting Google's website.
+
+TCP/IP:
+Once your browser knows the IP address of the server, it establishes a connection using the Transmission Control Protocol (TCP) over the Internet Protocol (IP). TCP ensures reliable data transmission, breaking the information into packets and reassembling them on the receiving end. IP, on the other hand, handles the routing of these packets across the internet.
+
+Firewall:
+To ensure security, many networks employ firewalls. Firewalls act as a barrier between your computer and the external network. They monitor and filter incoming and outgoing traffic, allowing only authorized data to pass through. When establishing a connection to Google's server, the firewall checks the communication against predefined rules to protect your system.
+
+HTTPS/SSL:
+The "https://" part of the URL indicates that you are accessing the website using the Hypertext Transfer Protocol Secure (HTTPS). HTTPS provides a secure connection between your browser and the server. It encrypts the data transmitted, preventing unauthorized interception and ensuring data integrity. To establish this secure connection, your browser and the server engage in a cryptographic handshake, exchanging encryption keys and verifying each other's authenticity using digital certificates.
+
+Load-Balancer:
+To handle the enormous traffic directed towards popular websites like Google, load-balancers come into play. A load-balancer distributes incoming requests across multiple servers to ensure efficient resource utilization and enhance website performance. When you send a request to Google, the load-balancer redirects your request to one of its many servers based on factors like server load, geographic proximity, or other predefined criteria.
+
+Web Server:
+After passing through the load-balancer, your request reaches one of Google's web servers. The web server processes the request and generates an appropriate response. It may retrieve data from databases, execute scripts, or interact with other backend systems to gather the required information. Once the response is ready, the web server sends it back to your browser.
+
+Application Server:
+In complex web applications, an application server often works in conjunction with the web server. The application server hosts the business logic of the website, handling tasks such as user authentication, session management, and dynamic content generation. It communicates with databases and other external services to fulfill the requested actions. The application server processes your request, performs the necessary operations, and sends the response back to the web server.
+
+Database:
+In the case of Google, where vast amounts of data are stored, databases play a vital role. When the application server requires data, it queries the appropriate database. The database retrieves and processes the requested information, such as search results or user preferences. The application server then receives the data from the database and prepares it for the response.
+
+Conclusion:
+The process of typing "https://www.google.com" in your browser and pressing Enter involves numerous intricate steps working seamlessly together. From the initial DNS request to the final delivery of the web page, technologies like TCP/IP, firewalls, HTTPS/SSL, load-balancers, web servers, application servers, and databases come into play. Understanding these underlying components sheds light on the complexity and sophistication that power our everyday web browsing experience.
